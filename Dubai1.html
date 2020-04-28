@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trip Travelling- India's big Travel Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="S1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    
+.part .container6{
+  background-color: white;
+  margin: 10px auto 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.part .container6 .image {
+  position: relative;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.part .container6 .image .image1{
+  position: relative;
+  overflow: hidden;
+}
+
+.part .container6 .image .image1 img{
+  max-width: 100%;
+  border-radius: 15px;
+  transition: transform 0.5s;
+
+}
+
+.part .container6 .image:hover .image1 img{
+  transform: scale(0.9);
+  opacity: 1;
+}
+
+.part .part1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 800px;
+  height: 400px;
+  padding-left: 50px;
+  background-color: ;
+  border: 2px solid;
+  border-bottom-color: rgba(250,250,250,.5);
+  border-right-color: rgba(60,60,60,.35);
+  border-top-color: rgba(60,60,60,.35);
+  border-left-color: rgba(80,80,80,.45);
+  background-color: rgba(0,0,0,.2);
+  background-repeat: no-repeat;
+  padding: 8px 24px 8px 10px;
+  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  letter-spacing: .075em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+
+}
+.part .part1 .para
+{
+  color: black;
+  font-size: 30px;
+}
+.part .part1 li
+{
+  color: black;
+  font-size: 20px;
+}
+
+.part .part1 .Contact p
+{
+  color: black;
+  font-size: 20px;
+}
+
+.part .part1 .icon-bar
+{
+  margin-top: -380px;
+  margin-left: 550px;
+}
+.part .part1 .inr
+{
+  margin-top: -130px;
+  margin-left: 568px;
+  color: #F08080;
+  font-size: 27px;
+}
+.part .part1 .btn3 {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 650px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.part .part1 .btn3:hover {
+  background-color: black;
+  color: white;
+}
+
+.part .btn4 {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 1150px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.part .btn4:hover {
+  background-color: black;
+  color: white;
+}
+
+  </style>
+
+  <script type="text/javascript">
+    function booking() 
+    {
+      alert("Your have booked your tour");
+    }
+
+    function bookmark() {
+      alert("Your Tour is bookmarked");
+    }
+    
+  </script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="title">
+          <a href="HomePage.html"><img src="A12.png"></a>
+      </div>
+    <h1 style="color: white">Trip Travel</h1>
+  </div>
+
+  <div class="navbar">
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+    <a href="#" onclick="document.getElementById('a').style.display='block'">
+    <i class="fa fa-fw fa-user"></i>Login</a>
+  </div>
+
+  <!--Login form-->
+<div id="a" class="modal">
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('a').style.display='none'" class="close" title=" Close Modal">&times;
+      </span>
+        <img src="A13.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>User name</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw1"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw2" required>
+        
+        <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container2" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('a').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw3">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+  
+</div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('a');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) 
+    {
+        if (event.target == modal) 
+        {
+          modal.style.display = "none";
+        }
+    }
+  </script>
+
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="google"><i class="fa fa-google"></i></a> 
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+
+  <div class="part">
+        <h1><svg class="bi bi-bag-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"/>
+</svg>&nbsp&nbspDubai</h1>
+        <div class="container6">
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="S2.jpg" alt="Snow" style="width:100%" title="Dubai">
+              </div>
+            </div> 
+          </div> 
+
+          <div class="part1">
+            <h1 class="para">Package Includes</h1>
+
+            <p><li>3 Nights accommodation in super deluxe hotel</li></p>
+            <p><li>Daily Breakfast</li></p>
+            <p><li>Airport Transfer</li></p>
+            <p><li>Desert Safari</li></p>
+            <p><li>Dubai City Tour</li></p>
+            <p><li>Bbq Dinner & Belly Dance</li></p>
+            <p><li>Burj Khalifa 124 floor with Musical Fountain Show </li></p>
+
+
+          <div class="Contact">
+            <h1 class="para">Contact us</h1>
+            <p>+91 9978987988</p>
+            <p>triptravel@gmail.com</p>
+          </div>
+
+            <div class="icon-bar">
+              <svg class="bi bi-chat-fill" width="15em" height="15em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 008 15z"/>
+              </svg>
+            
+            </div>
+            <h1 class="inr">Only 594USD<br><br>per person</h1>
+
+            <button class="btn3" onclick="booking()">Book Now</button>
+          </div>
+
+          <button class="btn4" onclick="bookmark()"><svg class="bi bi-bookmark-plus" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M4.5 2a.5.5 0 00-.5.5v11.066l4-2.667 4 2.667V8.5a.5.5 0 011 0v6.934l-5-3.333-5 3.333V2.5A1.5 1.5 0 014.5 1h4a.5.5 0 010 1h-4zm9-1a.5.5 0 01.5.5v2a.5.5 0 01-.5.5h-2a.5.5 0 010-1H13V1.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+          <path fill-rule="evenodd" d="M13 3.5a.5.5 0 01.5-.5h2a.5.5 0 010 1H14v1.5a.5.5 0 01-1 0v-2z" clip-rule="evenodd"/>
+          </svg>&nbspBookmark</button>
+
+            
+
+          
+        </div>
+      </div>
+
+
+
+</body>
+</html>

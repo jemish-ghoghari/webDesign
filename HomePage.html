@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trip Travelling- India's big Travel Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="S1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="title">
+          <a href="HomePage.html"><img src="A12.png"></a>
+      </div>
+    <h1 style="color: white">Trip Travel</h1>
+  </div>
+
+  <div class="navbar">
+    <a class="active" href="HomePage.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+    <a href="#" onclick="document.getElementById('a').style.display='block'">
+    <i class="fa fa-fw fa-user"></i>Login</a>
+  </div>
+
+  <!--Login form-->
+<div id="a" class="modal">
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('a').style.display='none'" class="close" title=" Close Modal">&times;
+      </span>
+        <img src="A13.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw1"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw2" required>
+        
+        <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container2" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('a').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw3">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+  
+</div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('a');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) 
+    {
+        if (event.target == modal) 
+        {
+          modal.style.display = "none";
+        }
+    }
+  </script>
+
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="google"><i class="fa fa-google"></i></a> 
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+
+  <div class="dividation">
+    <div class="leftside">
+      <div class="part">
+        <div id="slider">
+          <figure>
+            <img src="X1.jpg" height="600">
+            <img src="X2.jpg" height="600">
+            <img src="X3.jpg" height="600">
+            <img src="X4.jpg" height="600">
+            <img src="X5.jpg" height="600">
+            <img src="X6.jpg" height="600">
+            <img src="X7.jpg" height="600">
+            <img src="X8.jpg" height="600">
+            <img src="X9.jpg" height="600">
+            <img src="X10.jpg" height="600">
+          </figure>  
+        </div>
+      </div>
+
+      <div class="part">
+        <h1> Good offers right now </h1>
+        <div class="container3">
+
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="usa.jpg" alt="Snow" style="width:100%" title="Las Vegas">
+                  <a href="lasvegas.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>    
+
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="X11.jpg" alt="Snow" style="width:100%" title="Dubai">
+                  <a href="Dubai.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>    
+
+
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="paris.jpg" alt="Snow" style="width:100%" title="Paris">
+                  <a href="Paris.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>    
+
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="X12.jpg" alt="Snow" style="width:100%" title="Singapor">
+                  <a href="Singapor.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>    
+        </div>
+      </div>
+
+      <div class="part">
+        <h1>Our Special Tours</h1>
+        <div class="container3">
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="switzerland.jpg" alt="Snow" style="width:100%" title="Switzerland">
+                  <a href="switzerland.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>    
+
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="singapor.webp" alt="Snow" style="width:100%" title="Singapor">
+                  <a href="Singapor.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>
+
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="S2.jpg" alt="Snow" style="width:100%" title="Dubai">
+                  <a href="Dubai1.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>  
+
+          <div class="image">
+            <div class="image1">
+              <div class="container4">
+                <img src="P4.jpg" alt="Snow" style="width:100%" title="Hong Kong">
+                  <a href="Hongkong.html"><button class="btn1">Book Now</button></a>
+              </div>
+            </div> 
+          </div>     
+
+      </div> 
+    </div>
+    
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
